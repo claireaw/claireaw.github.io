@@ -1,5 +1,17 @@
-CREATE TABLE entries (name VARCHAR(255), price TINYINT(255), count TINYINT(1), rarity VARCHAR(255), url VARCHAR(255),
-    entryID INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(entryID));
-    INSERT INTO entries (name, price, count, rarity, url) values ("first item", 8, 1, "Legendary", "www.google.com");
+/*CREATE TABLE entries (name VARCHAR(255), price TINYINT(255), count TINYINT(1), rarity VARCHAR(255), url VARCHAR(255),*/
+/*    entryID INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(entryID));*/
+/*    INSERT INTO entries (name, price, count, rarity, url) values ("first item", 8, 1, "Legendary", "www.google.com");*/
 
 .center { display: block; margin-left: auto; margin-right: auto; width: 50%; }
+
+body {
+    padding: 3em;
+}
+
+img {
+    transition: transform .5s;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
